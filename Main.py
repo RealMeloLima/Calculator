@@ -54,8 +54,7 @@ def calcular():
 def limpar_tela():
     global todos_valores
     todos_valores = ""
-    valor_texto.set("")
-    todos_valores = str()
+    valor_texto.set(todos_valores)
 
 
 
